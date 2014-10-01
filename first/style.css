@@ -1,0 +1,52 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+.top {
+	width: 30%;
+	height: 100px;
+	display: flex;
+	margin: 15px;
+	flex-direction: row;
+}
+.red {
+	background-color: red;
+}
+.blue {
+	background-color: blue;
+}
+.black {
+	background-color: black;
+}
+.text {
+	padding: 20px ;
+}
+.middle {
+	height: 300px;
+	margin: 15px;
+}
+.red .middle {
+	width: 70%;
+}
+.blue .middle {
+	width: 30%;
+	margin: 0px;
+}
+.bottom {
+	height: 100px;
+	margin: 15px;
+	position: relative;
+}
+/*.blue .bottom {
+	width: 0%;
+	margin: 0px;
+	z-index: 30;
+}
+.black .bottom {
+	z-index: 5;
+	width:500px;
+}
+.red .bottom {
+	width: 55px ;
+	z-index: 100;
+}
